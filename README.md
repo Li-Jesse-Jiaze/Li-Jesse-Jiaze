@@ -1,2 +1,18 @@
 
-![Jesse's GitHub stats](https://github-readme-stats.vercel.app/api?username=Li-Jesse-Jiaze&theme=omni&show_icons=true&count_private=true&hide_border=true)
+```python
+@dataclass
+class Li_Jesse_Jiaze:
+    current_roles: List[Role] = [
+        m_sc_student("uni_heidelberg"),
+        working_student("aleph_alpha"),
+    ]
+    former_roles: List[Role] = [
+        algorithm_engineer("qiyuan_lab"),
+        b_eng_data_science("tongji_university"),
+    ]
+    interests: tuple[str, ...] = ["LLMs", "diffusion_models", "vision_3d"]
+
+
+def free_time() -> str:
+    return random.choice(["darts", "football", "bird_watching"])
+```
