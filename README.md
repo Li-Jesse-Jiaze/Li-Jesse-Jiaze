@@ -1,7 +1,7 @@
 
 ```python
 @dataclass
-class Li_Jesse_Jiaze:
+class HumanConfig:
     current_roles: List[Role] = [
         m_sc_student("uni_heidelberg"),
         working_student("aleph_alpha"),
