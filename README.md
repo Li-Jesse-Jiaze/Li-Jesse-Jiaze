@@ -10,7 +10,7 @@ class HumanConfig:
         algorithm_engineer("qiyuan_lab"),
         b_eng_data_science("tongji_university"),
     ]
-    interests: tuple[str, ...] = ["LLMs", "diffusion_models", "vision_3d"]
+    interests: tuple[str, ...] = ("LLMs", "diffusion_models", "vision_3d")
 
 
 def free_time() -> str:
